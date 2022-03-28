@@ -8,8 +8,12 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .wrapper {
-    width: 960px;
+    max-width: 960px;
     margin: auto;
 }
 
@@ -24,7 +28,7 @@ html {
 
 .section__subheading {
     font-size: 1.8rem;
-    padding:3rem 0;
+    padding: 3rem 0;
 }
 
 .section__button {
@@ -48,6 +52,7 @@ html {
     padding: 2rem;
     margin: auto;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .menu .menu__link {
@@ -64,7 +69,7 @@ html {
 
 .section {
     min-height: 90vh;
-    background-image: url("/img/federico-bottos-Z3NceSeZqgI-unsplash.jpg");
+    background-image: url("/my-company/img/federico-bottos-Z3NceSeZqgI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -77,5 +82,69 @@ html {
     width: 90%;
     margin: auto;
     color: #fff;
- 
+
+}
+
+/* .section__text--darked {
+    color: #000;
+}
+
+.section__staff {
+    background-color: #fff;
+    background-image: none;
+    justify-content: flex-start;
+} */
+.profile {
+    padding: 2rem 0;
+    background-color: #F1F1F1;
+}
+
+.profile__text {
+    width: 90%;
+    margin: auto;
+}
+
+.profile__card {
+    display: flex;
+    padding-top: 2.5rem;
+}
+
+.profile__heading {
+    font-size: 3rem;
+}
+
+.profile__photo {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-image: url("/img/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid blue;
+}
+
+.profile__caption {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+text-align: center; */
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 2.8rem;
+    flex: 1 1 10rem;
+
+}
+
+.profile__caption p {
+    text-align: justify;
+
+}
+@media screen and (max-width: 764px){
+    html{
+        font-size: 45%;
+    }
+    .menu__row{
+      display: none;
+    }
 }
