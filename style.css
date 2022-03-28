@@ -113,7 +113,7 @@ body {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    background-image: url("/img/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg");
+    background-image: url("/my-company/img/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -143,6 +143,7 @@ body {
 
 .profile__photo--inverted {
     order: 2;
+    background-image: url("/my-company/img/matheus-ferrero-kkyMUrSaOPw-unsplash.jpg");
 }
 
 .profile__caption p {
