@@ -1,8 +1,81 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 62.5%;
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto;
+}
+
+.menu__logo {
+    font-size: 1.8rem;
+    flex: 1 1 40rem;
+}
+
+.section__heading {
+    font-size: 3.6rem;
+}
+
+.section__subheading {
+    font-size: 1.8rem;
+    padding:3rem 0;
+}
+
+.section__button {
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 1rem 5rem;
+    border: 0.3rem solid #fff;
+}
+
+/*nav and section styles */
+.menu {
+    background: #4E4E4E;
+    color: #fff;
+}
+
+.menu__navigation {
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    padding: 2rem;
+    margin: auto;
+    align-items: center;
+}
+
+.menu .menu__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__row {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.section {
+    min-height: 90vh;
+    background-image: url("/img/federico-bottos-Z3NceSeZqgI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section__text {
+    width: 90%;
+    margin: auto;
+    color: #fff;
+ 
 }
